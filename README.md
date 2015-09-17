@@ -4,6 +4,8 @@
 
 ### Usage
 
+#### As A Provider
+
 1. Install [`cl-handlers`](https://github.com/Inaimathi/cl-handlers)
 2. Clone this repo into your `~/quicklisp/local-projects`
 3. `sbcl --eval '(ql:quickload :cl-pronounce)' --eval '(cl-pronounce:start)'`
@@ -40,6 +42,10 @@ negative tau
 
 inaimathi@self:~$ 
 ```
+
+#### As A Consumer
+
+If you don't want to run your own instance (and promise not to explode my server), you can use the one at instance, you can use the one at [http://pronounce.inaimathi.ca/](http://pronounce.inaimathi.ca/v1/magic/-1238768)
 
 ### What The Fuck?
 
