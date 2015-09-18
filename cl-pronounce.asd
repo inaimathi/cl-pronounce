@@ -1,9 +1,10 @@
 ;;;; cl-pronounce.asd
 
 (asdf:defsystem #:cl-pronounce
-  :description "Describe cl-pronounce here"
-  :author "Your Name <your.name@example.com>"
-  :license "Specify license here"
+  :description "Written English numbers as a service"
+  :author "inaimathi <leo.zovic@gmail.com>"
+  :license "AGPL3"
+  :version "0.0.0"
   :serial t
   :depends-on (#:cl-handlers #:woo #:alexandria)
   :components ((:file "package")
