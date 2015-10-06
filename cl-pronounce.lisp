@@ -33,7 +33,7 @@
     (:html
      (:head
       (:script (str (ps* `(if window.speech-synthesis
-			      (let ((msg (new (speech-synthesis-utterance ,a-string))))
+			      (let ((msg (new (-speech-synthesis-utterance ,a-string))))
 				(window.speech-synthesis.speak msg))
 			      (alert "NO SPEECH SYNTH DETECTED"))))))
      (:body (str a-string)))))
