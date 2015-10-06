@@ -6,7 +6,7 @@
   :license "AGPL3"
   :version "0.0.1"
   :serial t
-  :depends-on (#:cl-handlers #:woo #:alexandria)
+  :depends-on (#:cl-handlers #:woo #:alexandria #:cl-who #:parenscript)
   :components ((:file "package")
 	       (:file "util")
                (:file "cl-pronounce")))
